@@ -1,0 +1,137 @@
+#-------
+# use_magnetic_field
+# values: true, false
+# 
+
+use_magnetic_field false
+
+#-------
+# magnetic_field_file_name
+#
+
+magnetic_field_file_name NA
+
+#-------
+# geometry_file_name
+#
+
+#geometry_file_name geometry_ideal_17_1.json
+#geometry_file_name geometry_ideal_22_1.json
+#geometry_file_name geometry_ideal_22_2.json
+#geometry_file_name geometry_ideal_22_3.json
+geometry_file_name geometry_ideal_22_4.json
+
+#-------
+# input_root_file_name
+#
+
+input_root_file_name proton_carbon_30gev_ideal_22_4_all.root
+#input_root_file_name proton_carbon_30gev_ideal_22_4_multi_track_no_field.root
+#input_root_file_name proton_carbon_30gev_ideal_22_4_single_hit_no_field.root
+#input_root_file_name proton_carbon_30gev_ideal_22_4_all_no_field.root
+#input_root_file_name proton_carbon_30gev_ideal_22_4_multi_track_no_field.root
+#input_root_file_name proton_carbon_30gev_ideal_22_4_multi_track.root
+#input_root_file_name proton_carbon_30gev_ideal_22_3_multi_track_no_field.root
+#input_root_file_name proton_carbon_30gev_ideal_22_1_all.root
+#input_root_file_name proton_carbon_30gev_ideal_22_2_multi_track.root
+#input_root_file_name proton_carbon_30gev_ideal_22_1_multi_track.root
+#input_root_file_name proton_carbon_30gev_ideal_22_1_multi_track_no_field.root
+#input_root_file_name proton_carbon_30gev_ideal_22_1_all_no_field.root
+#input_root_file_name proton_carbon_30gev_ideal_22_2_all.root
+#input_root_file_name proton_carbon_30gev_ideal_22_3_all.root
+#input_root_file_name production_30gev_proton_carbon_real_5_mid22.root
+#input_root_file_name production_30gev_proton_carbon_real_5_multi_track_2to6.root
+#input_root_file_name production_30gev_proton_carbon_real_5_more.root
+#input_root_file_name production_30gev_proton_carbon_real_5_all.root
+#input_root_file_name production_30gev_proton_carbon_real_5.root
+#input_root_file_name production_30gev_proton_carbon_real_5_single_track.root
+#input_root_file_name production_30gev_proton_carbon_real_5_single_track_no_target.root
+
+#-------
+# input_root_ssd_energy_tree_name
+#
+
+input_root_ssd_energy_tree_name ssd_energy
+
+#-------
+# input_root_particle_truth_tree_name
+#
+
+input_root_particle_truth_tree_name particle_truth
+
+#-------
+# input_root_steps_truth_tree_name
+#
+
+input_root_steps_truth_tree_name steps_truth
+
+#-------
+# output_root_file_name
+#
+
+output_root_file_name reconstructed_30gev_proton_carbon_real_5.root
+
+#-------
+# number_of_events_to_process
+# values: all, 1, 2, ...
+#
+
+number_of_events_to_process 10
+#-------
+# cluster_interpretation_method
+#
+
+cluster_interpretation_method weighted
+
+#-------
+# maximum discrepancy between intended and actual strip directions
+# values in degrees
+#
+
+maximum_angle_between_intended_and_actual_strip_direction 2.
+
+#-------
+# upstream plates should have 1 cluster per plate; allow extra, but limit amount
+# of plates with extra clusters and amount of extra clusters on these plates
+#
+# upstream
+
+max_upstream_plates_with_multiple_clusters 1
+max_clusters_on_upstream_plates_with_multiple_clusters 2
+
+# midstream + downstream for single track
+# the first two here below are redundant
+
+max_midstream_plus_downstream_plates_with_multiple_clusters 2
+max_midstream_plus_downstream_plates_with_zero_clusters 2
+max_midstream_plus_downstream_plates_with_zero_or_multiple_clusters 2
+
+# midstream + downstream for multitrack
+
+max_midstream_plus_downstream_plates_with_less_than_2_clusters 2
+
+# cluster multiplicities for single track
+max_plates_with_multiple_clusters_for_single_track 3
+max_upstream_plates_with_multiple_clusters_for_single_track 1
+max_midstream_plates_with_multiple_clusters_for_single_track 1
+max_downstream_plates_with_multiple_clusters_for_single_track 1
+max_upstream_plates_with_zero_clusters 0
+
+#-------
+# cuts
+# distance from assumed track to strip on third plate in triplet group 
+# to be accepted as part of the track; in cm
+
+cut_max_distance_to_accept_in_track 0.1
+
+# the weight with which to use the guessed vertex in downstream cluster assignment
+
+guessed_vertex_weight 1.0
+
+# max distance between tracks to count to vertex finding
+
+cut_max_distance_to_count_to_vertex 0.2
+
+# min energy to be counted as high energy charged particle in MeV
+
+cut_min_energy_to_be_high_energy_charged_particle 50.

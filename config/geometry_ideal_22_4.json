@@ -1,0 +1,309 @@
+{
+  "primary_direction_1" : [1., 0., 0.],
+  "primary_direction_2" : [0., 1., 0.],
+  "secondary_direction_1" : [-1., 1., 0.],
+  "secondary_direction_2" : [1., 1., 0.],
+  "primary_direction_1_name" : Y,
+  "primary_direction_2_name" : X,
+  "secondary_direction_1_name" : D2,
+  "secondary_direction_2_name" : D1,
+  "magnetic_field_general_direction" : [0., 1., 0.],
+  "magnetic_field_general_direction_name" : Y,
+  "tracking_region_0_name": upstream,
+  "tracking_region_1_name": midstream,
+  "tracking_region_2_name": downstream,
+  "tracking_region_3_name": NA,
+  "plaque" :
+	{
+		"id" : 0,
+    "tracking_region": 0,
+    "plate" : 0,
+    "group" : 0,
+    "intended_to_measure" : Y,
+		"efficiency" : 0.9920,
+		"position" : [0., 0., -32.0],
+		"rotation" : [0., 0., 90.],
+    "size" : [3.84, 9.0],
+    "number_of_strips" : 640
+	},
+  "plaque" :
+  {
+    "id" : 1,
+    "tracking_region": 0,
+    "plate" : 1,
+    "group" : 0,
+    "intended_to_measure" : X,
+    "efficiency" : 0.9920,
+    "position" : [0., 0., -31.4],
+    "rotation" : [0., 0., 0.],
+    "size" : [3.84, 9.0],
+    "number_of_strips" : 640
+  },
+  "plaque" :
+  {
+    "id" : 2,
+    "tracking_region": 0,
+    "plate" : 2,
+    "group" : 1,
+    "intended_to_measure" : Y,
+    "efficiency" : 0.9920,
+    "position" : [0., 0., -2.4],
+    "rotation" : [0., 0., 90.],
+    "size" : [3.84, 9.0],
+    "number_of_strips" : 640
+  },
+  "plaque" :
+  {
+    "id" : 3,
+    "tracking_region": 0,
+    "plate" : 3,
+    "group" : 1,
+    "intended_to_measure" : X,
+    "efficiency" : 0.9920,
+    "position" : [0., 0., -1.8],
+    "rotation" : [0., 0., 0.],
+    "size" : [3.84, 9.0],
+    "number_of_strips" : 640
+  },
+  "plaque" :
+  {
+    "id" : 4,
+    "tracking_region": 1,
+    "plate" : 4,
+    "group" : 2,
+    "intended_to_measure" : Y,
+    "efficiency" : 0.9920,
+    "position" : [0., 0., 2.2],
+    "rotation" : [0., 0., 90.],
+    "size" : [3.84, 9.0],
+    "number_of_strips" : 640
+  },
+  "plaque" :
+  {
+    "id" : 5,
+    "tracking_region": 1,
+    "plate" : 5,
+    "group" : 2,
+    "intended_to_measure" : X,
+    "efficiency" : 0.9920,
+    "position" : [0., 0., 2.8],
+    "rotation" : [0., 0., 0.],
+    "size" : [3.84, 9.0],
+    "number_of_strips" : 640
+  },
+  "plaque" :
+  {
+    "id" : 6,
+    "tracking_region": 1,
+    "plate" : 6,
+    "group" : 3,
+    "intended_to_measure" : D2,
+    "efficiency" : 0.9920,
+    "position" : [0., 0., 4.0],
+    "rotation" : [0., 0., 45.],
+    "size" : [3.84, 9.0],
+    "number_of_strips" : 640
+  },
+  "plaque" :
+  {
+    "id" : 7,
+    "tracking_region": 1,
+    "plate" : 7,
+    "group" : 3,
+    "intended_to_measure" : D1,
+    "efficiency" : 0.9920,
+    "position" : [0., 0., 4.6],
+    "rotation" : [0., 0., -45.],
+    "size" : [3.84, 9.0],
+    "number_of_strips" : 640
+  },
+  "plaque" :
+  {
+    "id" : 8,
+    "tracking_region": 1,
+    "plate" : 8,
+    "group" : 4,
+    "intended_to_measure" : Y,
+    "efficiency" : 0.9920,
+    "position" : [0., 0., 6.0],
+    "rotation" : [0., 0., 90.],
+    "size" : [3.84, 9.0],
+    "number_of_strips" : 640
+  },
+  "plaque" :
+  {
+    "id" : 9,
+    "tracking_region": 1,
+    "plate" : 9,
+    "group" : 4,
+    "intended_to_measure" : X,
+    "efficiency" : 0.9920,
+    "position" : [0., 0., 6.6],
+    "rotation" : [0., 0.,  0.],
+    "size" : [3.84, 9.0],
+    "number_of_strips" : 640
+  },
+  "plaque" :
+  {
+    "id" : 10,
+    "tracking_region": 2,
+    "plate" : 10,
+    "group" : 5,
+    "intended_to_measure" : Y,
+    "efficiency" : 0.9920,
+    "position" : [0., -1.92, 24.0],
+    "rotation" : [0., 0., 90.],
+    "size" : [3.84, 9.0],
+    "number_of_strips" : 640
+  },
+  "plaque" :
+  {
+    "id" : 11,
+    "tracking_region": 2,
+    "plate" : 10,
+    "group" : 5,
+    "intended_to_measure" : Y,
+    "efficiency" : 0.9920,
+    "position" : [0., 1.92, 24.0],
+    "rotation" : [0., 0., 90.],
+    "size" : [3.84, 9.0],
+    "number_of_strips" : 640
+  },
+  "plaque" :
+  {
+    "id" : 12,
+    "tracking_region": 2,
+    "plate" : 11,
+    "group" : 5,
+    "intended_to_measure" : X,
+    "efficiency" : 0.9920,
+    "position" : [-1.92, 0., 24.6],
+    "rotation" : [0., 0., 0.],
+    "size" : [3.84, 9.0],
+    "number_of_strips" : 640
+  },
+  "plaque" :
+  {
+    "id" : 13,
+    "tracking_region": 2,
+    "plate" : 11,
+    "group" : 5,
+    "intended_to_measure" : X,
+    "efficiency" : 0.9920,
+    "position" : [1.92, 0., 24.6],
+    "rotation" : [0., 0., 0.],
+    "size" : [3.84, 9.0],
+    "number_of_strips" : 640
+  },
+  "plaque" :
+  {
+    "id" : 14,
+    "tracking_region": 2,
+    "plate" : 12,
+    "group" : 5,
+    "intended_to_measure" : D2,
+    "efficiency" : 0.9920,
+    "position" : [1.357645, 1.357645, 25.2],
+    "rotation" : [0., 0., 45.],
+    "size" : [3.84, 9.0],
+    "number_of_strips" : 640
+  },
+  "plaque" :
+  {
+    "id" : 15,
+    "tracking_region": 2,
+    "plate" : 12,
+    "group" : 5,
+    "intended_to_measure" : D2,
+    "efficiency" : 0.9920,
+    "position" : [-1.357645, -1.357645, 25.2],
+    "rotation" : [0., 0., 45.],
+    "size" : [3.84, 9.0],
+    "number_of_strips" : 640
+  },
+  "plaque" :
+  {
+    "id" : 16,
+    "tracking_region": 2,
+    "plate" : 13,
+    "group" : 6,
+    "intended_to_measure" : D1,
+    "efficiency" : 0.9920,
+    "position" : [-1.357645, 1.357645, 36.],
+    "rotation" : [0., 0., -45.],
+    "size" : [3.84, 9.0],
+    "number_of_strips" : 640
+  },
+  "plaque" :
+  {
+    "id" : 17,
+    "tracking_region": 2,
+    "plate" : 13,
+    "group" : 6,
+    "intended_to_measure" : D1,
+    "efficiency" : 0.9920,
+    "position" : [1.357645, -1.357645, 36.],
+    "rotation" : [0., 0., -45.],
+    "size" : [3.84, 9.0],
+    "number_of_strips" : 640
+  },
+  "plaque" :
+  {
+    "id" : 18,
+    "tracking_region": 2,
+    "plate" : 14,
+    "group" : 6,
+    "intended_to_measure" : Y,
+    "efficiency" : 0.9920,
+    "position" : [0., -1.92, 36.6],
+    "rotation" : [0., 0., 90.],
+    "size" : [3.84, 9.0],
+    "number_of_strips" : 640
+  },
+  "plaque" :
+  {
+    "id" : 19,
+    "tracking_region": 2,
+    "plate" : 14,
+    "group" : 6,
+    "intended_to_measure" : Y,
+    "efficiency" : 0.9920,
+    "position" : [0., 1.92, 36.6],
+    "rotation" : [0., 0., 90.],
+    "size" : [3.84, 9.0],
+    "number_of_strips" : 640
+  },
+  "plaque" :
+  {
+    "id" : 20,
+    "tracking_region": 2,
+    "plate" : 15,
+    "group" : 6,
+    "intended_to_measure" : X,
+    "efficiency" : 0.9920,
+    "position" : [-1.92, 0., 37.2],
+    "rotation" : [0., 0., 0.],
+    "size" : [3.84, 9.0],
+    "number_of_strips" : 640
+  },
+  "plaque" :
+  {
+    "id" : 21,
+    "tracking_region": 2,
+    "plate" : 15,
+    "group" : 6,
+    "intended_to_measure" : X,
+    "efficiency" : 0.9920,
+    "position" : [1.92, 0., 37.2],
+    "rotation" : [0., 0., 0.],
+    "size" : [3.84, 9.0],
+    "number_of_strips" : 640
+  },
+  "target" :
+  {
+    "position" : [0., 0., 0.],
+    "rotation" : [0., 0., 0.],
+    "size" : [20.0, 20.0, 2.0],
+    "material" : carbon
+  }
+}
